@@ -114,9 +114,43 @@ header ul {
   flex-direction: row;
 }
 
+/*----------- MAIN AREA ---------*/
 
+.hero-area {
+  display: flex;
+  justify-content: center;
+}
 
+aside {
+  display: flex;
+  justify-content: center;
 
+}
+
+.features-items {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/*----------- FAQ ---------*/
+
+.faq-content {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/*----------- About ---------*/
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+}
 
 
 /* ==========================================================================
