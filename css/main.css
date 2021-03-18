@@ -87,32 +87,23 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.content-wrapper {
-  width: 90%;
-  margin: 50px 0;
+html {
+  font-size: 16px;
 }
 
-/*-------------- Base Header - Footer Styles ------------*/
-
-header, 
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  padding: 15px 0s;
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
 }
 
-header nav {
-  display: flex;
-  flex-flow: row wrap;
-  width: 60%;
-}
-
-header nav ul {
-  display: flex;
-  justify-content: space-around;
+img {
   width: 100%;
+}
+
+/****** HEADER *******/
+
+header {
+  background-color: #202322;
 }
 
 header .content-wrapper {
@@ -122,72 +113,47 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
-footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 15px 0 10px 0;
 }
 
 .header-divider {
   width: 100%;
+  border: 1px solid #3a3a3a;
 }
 
-
-
-/*----------- MAIN AREA ---------*/
-
-.hero-area {
-  display: flex;
-  justify-content: center;
-}
-
-aside {
-  display: flex;
-  justify-content: center;
-
-}
-
-.features {
-  display: flex;
-  justify-content: center;
-}
-
-.features-items {
+header nav {
+  width: 60%;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+header nav ul {
+  width: 100%;
+  display: flex;
   align-items: center;
-}
-
-.features article {
-  width: 63%;
-}
-
-.reviews h3 {
-  width: 55%;
-}
-
-.reviews {
-  display: flex;
-  justify-content: center;
-}
-
-/*----------- FAQ ---------*/
-
-.faq-content {
-  display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-flow: row wrap;
-  align-items: center;
+  padding: 0;
 }
 
-/*----------- About ---------*/
 
-.contact-section {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  align-items: center;
+header a {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.125em;
 }
+
+
 
 
 /* ==========================================================================
@@ -278,15 +244,12 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /*Tablet styles here*/
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media only screen and (min-width: 1200px) {
+  /*Desktop styles here*/
 }
 
 /* ==========================================================================
