@@ -104,6 +104,9 @@ img {
 
 header {
   background-color: #202322;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header .content-wrapper {
@@ -145,15 +148,12 @@ header nav ul {
 
 
 header a {
-  display: inline-block;
   text-transform: uppercase;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
   font-size: 1.125em;
 }
-
-
 
 
 /* ==========================================================================
@@ -246,10 +246,53 @@ header a {
 
 @media only screen and (min-width: 768px) {
   /*Tablet styles here*/
+
+/****** HEADER ******/
+.header-divider {
+  display: none;
+}
+
+header .content-wrapper {
+  justify-content: space-between;
+  padding: 15px 60px;
+}
+
+header figure {
+  width: 35%;
+}
+
+header nav {
+  width: 20%;
+}
+
+header a {
+  font-size: 1em;
+}
+
 }
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
+
+/****** HEADER ******/
+header .content-wrapper {
+  width: 100%;
+}
+
+header figure {
+  width: 27%;
+  margin-left: 55px;
+}
+
+header a {
+  font-size: 1.125em;
+}
+
+header nav {
+  width: 16%;
+  padding-right: 45px;
+}
+
 }
 
 /* ==========================================================================
