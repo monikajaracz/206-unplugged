@@ -112,9 +112,9 @@ h1 {
   text-shadow: 2px 2px #333;
 }
 
-h4 {
+h3, h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.125em;
   font-weight: 500;
   margin: 0;
 }
@@ -262,6 +262,43 @@ address {
   margin: 0;
 }
 
+/* FORM STYLES */
+
+aside {
+  background: #527158;
+  min-height: 325px;
+  padding-top: 30px;
+}
+
+aside h3 {
+  padding-bottom: 15px;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 12px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 
 /* ==========================================================================
