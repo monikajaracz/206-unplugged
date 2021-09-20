@@ -268,6 +268,10 @@ aside {
   background: #527158;
   min-height: 325px;
   padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 aside h3 {
@@ -453,6 +457,32 @@ footer h4 {
   font-size: 3em;
 }
 
+/* FORM STYLES */
+
+aside {
+  min-height: 236px;
+  padding: 0;
+}
+
+aside .form {
+  margin-top: 0;
+}
+
+aside h3 {
+  font-size: 1.5em;
+}
+
+aside .content-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-description, .form {
+  width: 40%;
+}
+
+
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -493,6 +523,20 @@ footer h4 {
 .hero-area h1 {
   font-size: 3.75em;
   width: 80%;
+}
+
+/* FORM STYLES */
+
+aside {
+  min-height: 260px;
+}
+
+aside h3 {
+  font-size: 1.875em;
+}
+
+.form-description, .form {
+  max-width: 320px;
 }
 
 
