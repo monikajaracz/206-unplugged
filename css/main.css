@@ -624,6 +624,11 @@ aside h3 {
   max-width: 320px;
 }
 
+/*** FEATURES SECTION ***/
+
+.features article {
+  width: 33%;
+}
 
 }
 
