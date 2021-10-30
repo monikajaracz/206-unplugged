@@ -346,6 +346,31 @@ input[type=button] {
   margin: 30px 0;
 }
 
+/* REVIEWS SECTION */
+
+.reviews {
+  background: #2a423a;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 40px 0;
+}
+
+.reviews h2 {
+  padding-bottom: 25px;
+  line-height: 1;
+}
+
+.reviews article {
+  display: flex;
+  max-width: 960px;
+  flex-flow: row wrap;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
+
 /****** ABOUT PAGE ******/
 
 /* MAP */
@@ -365,6 +390,7 @@ input[type=button] {
     top: 0; 
     left: 0; 
 }
+
 
 
 /* ==========================================================================
